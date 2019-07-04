@@ -1,0 +1,86 @@
+module.exports = {
+  rules: {
+    /* Errors */
+    'array-callback-return': ['error', { allowImplicit: true }],
+    'block-scoped-var': ['error'],
+    'class-methods-use-this': ["error", { "exceptMethods": [] }],
+    'consistent-return': ['error'],
+    'default-case': ['error'],
+    'dot-notation': ['error', { allowKeywords: true }],
+    'eqeqeq': ['error', 'always'],
+    'guard-for-in': ['error'],
+    'no-alert': ['error'],
+    'no-caller': ['error'],
+    'no-case-declarations': ['error'],
+    'no-else-return': ["error", { allowElseIf: false }],
+    'no-empty-function': ['error'],
+    'no-empty-pattern': ['error'],
+    'no-eq-null': ['error'],
+    'no-eval': ['error'],
+    'no-extend-native': ['error'],
+    'no-extra-bind': ['error'],
+    'no-extra-label': ['error'],
+    'no-fallthrough': ['error'],
+    'no-global-assign': ['error', { exceptions: [] }],
+    'no-implied-eval': ['error'],
+    'no-invalid-this': ['error'],
+    'no-iterator': ['error'],
+    'no-labels': ['error', { allowLoop: false, allowSwitch: false }],
+    'no-lone-blocks': ['error'],
+    'no-loop-func': ['error'],
+    'no-multi-str': ['error'],
+    'no-new': ['error'],
+    'no-new-func': ['error'],
+    'no-new-wrappers': ['error'],
+    'no-octal': ['error'],
+    'no-octal-escape': ['error'],
+    'no-proto': ['error'],
+    'no-redeclare': ['error'],
+    'no-return-assign': ['error', 'always'],
+    'no-return-await': ['error'],
+    'no-script-url': ['error'],
+    'no-self-assign': ['error', { props: false }],
+    /* Warnings */
+    /* Disabled */
+    'accessor-pairs': ['off'],
+    'complexity': ['off'],
+    'max-classes-per-file': ['off'],
+    'no-div-regex': ['off'],
+    'no-implicit-coercion': ['off'],
+    'no-implicit-globals': ['off'],
+    'no-magic-numbers': ['off'],
+    'no-param-reassign': ['off'],
+    'no-restricted-properties': ['off'],
+    // TODO: Validate rules
+    'no-self-compare': [],
+    'no-sequences': [],
+    'no-throw-literal': [],
+    'no-unmodified-loop-condition': [],
+    'no-unused-expressions': [],
+    'no-unused-labels': [],
+    'no-useless-call': [],
+    'no-useless-catch': [],
+    'no-useless-concat': [],
+    'no-useless-escape': [],
+    'no-useless-return': [],
+    'no-void': [],
+    'no-warning-comments': [],
+    'no-with': [],
+    'prefer-named-capture-group': [],
+    'prefer-promise-reject-errors': [],
+    'radix': [],
+    'require-await': [],
+    'require-unicode-regexp': [],
+    'vars-on-top': [],
+    'yoda': [],
+  },
+};
+
+/*
+Controlled by Prettier:
+  - curly
+  - dot-location
+  - no-floating-decimal
+  - no-multi-spaces
+  - wrap-iife
+*/
