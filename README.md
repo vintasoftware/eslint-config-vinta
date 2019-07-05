@@ -2,17 +2,17 @@
 
 Vinta's [ESLint](http://eslint.org) and [Prettier](https://prettier.io/) shareable configs.
 
-> This repository is under development and the ESLint and Prettier rules applied here are subject to change.
+> This repository is under development and both ESLint and Prettier rules applied here are subject to change.
 
 ## Install
 
-```
-npm install eslint-config-vinta
+```bash
+npm install --save-dev eslint-config-vinta
 ```
 
 ## Usage
 
-This repository hosts the configurations for both `ESLint` and `Prettier`, and each one of them handles shareable configurations differently.
+This repository contains the configurations for both `ESLint` and `Prettier`, and each one of them handles shareable configurations differently.
 
 ### ESLint
 
@@ -39,7 +39,7 @@ For Prettier, add the following line to your `package.json` file:
 "prettier": "eslint-config-vinta/prettier",
 ```
 
-If you already have a working configuration for your project, you can either ignore this step or extend our configs in your `.prettierrc` file:
+If you already have a working configuration for your project, you can either ignore this step or extend our config in your `.prettierrc` file:
 
 ```js
 {
@@ -50,3 +50,11 @@ If you already have a working configuration for your project, you can either ign
 ```
 
 You can learn more about Prettier's shareable configs [here](https://github.com/prettier/prettier/blob/master/docs/configuration.md#sharing-configurations).
+
+## Rules
+
+
+## Contributing
+
+
+## Versioning
