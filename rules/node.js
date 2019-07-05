@@ -1,19 +1,17 @@
 module.exports = {
   rules: {
-    // TODO: Validate rules
     /* Errors */
-    /* Warnings */
+    'global-require': ['error'],
+    'no-buffer-constructor': ['error'],
+    'no-mixed-requires': ['error'],
+    'no-new-require': ['error'],
+    'no-path-concat': ['error'],
     /* Disabled */
-    'callback-return': [],
-    'global-require': [],
-    'handle-callback-err': [],
-    'no-buffer-constructor': [],
-    'no-mixed-requires': [],
-    'no-new-require': [],
-    'no-path-concat': [],
-    'no-process-env': [],
-    'no-process-exit': [],
-    'no-restricted-modules': [],
-    'no-sync': [],
+    'callback-return': ['off'],
+    'handle-callback-err': ['off'],
+    'no-process-env': ['off'],
+    'no-process-exit': ['off'],
+    'no-restricted-modules': ['off'],
+    'no-sync': ['off'],
   },
 };

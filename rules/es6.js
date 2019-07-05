@@ -6,30 +6,34 @@ module.exports = {
   },
   rules: {
     /* Errors */
-    /* Warnings */
+    'constructor-super': ['error'],
+    'no-class-assign': ['error'],
+    'no-const-assign': ['error'],
+    'no-dupe-class-members': ['error'],
+    'no-new-symbol': ['error'],
+    'no-this-before-super': ['error'],
+    'no-useless-computed-key': ['error'],
+    'no-useless-constructor': ['error'],
+    'no-useless-rename': ['error'],
+    'no-var': ['error'],
+    'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true, }],
+    'prefer-const': ['error'],
+    'prefer-destructuring': ['error', {
+      VariableDeclarator: { array: false, object: true },
+      AssignmentExpression: { array: true, object: true }
+    }, {
+      enforceForRenamedProperties: false
+    }],
+    'prefer-rest-params': ['error'],
+    'prefer-spread': ['error'],
+    'prefer-template': ['error'],
+    'require-yield': ['error'],
     /* Disabled */
-    'constructor-super': [],
-    'no-class-assign': [],
-    'no-const-assign': [],
-    'no-dupe-class-members': [],
-    'no-duplicate-imports': [],
-    'no-new-symbol': [],
-    'no-restricted-imports': [],
-    'no-this-before-super': [],
-    'no-useless-computed-key': [],
-    'no-useless-constructor': [],
-    'no-useless-rename': [],
-    'no-var': [],
-    'object-shorthand': [],
-    'prefer-const': [],
-    'prefer-destructuring': [],
-    'prefer-numeric-literals': [],
-    'prefer-rest-params': [],
-    'prefer-spread': [],
-    'prefer-template': [],
-    'require-yield': [],
-    'sort-imports': [],
-    'symbol-description': [],
+    'no-duplicate-imports': ['off'],
+    'no-restricted-imports': ['off'],
+    'prefer-numeric-literals': ['off'],
+    'sort-imports': ['off'],
+    'symbol-description': ['error'],
   },
 };
 
