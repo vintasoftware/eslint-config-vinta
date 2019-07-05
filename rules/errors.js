@@ -19,12 +19,15 @@ module.exports = {
     'no-func-assign': ['error'],
     'no-inner-declarations': ['error', 'both'],
     'no-invalid-regexp': ['error', { allowConstructorFlags: ['u', 'y'] }],
-    'no-irregular-whitespace': ['error', {
-      skipStrings: true,
-      skipTemplates: true,
-      skipRegExps: false,
-      skipComments: false,
-    }],
+    'no-irregular-whitespace': [
+      'error',
+      {
+        skipStrings: true,
+        skipTemplates: true,
+        skipRegExps: false,
+        skipComments: false,
+      },
+    ],
     'no-misleading-character-class': ['error'],
     'no-obj-calls': ['error'],
     'no-prototype-builtins': ['error'],

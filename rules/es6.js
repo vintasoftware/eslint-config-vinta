@@ -16,14 +16,18 @@ module.exports = {
     'no-useless-constructor': ['error'],
     'no-useless-rename': ['error'],
     'no-var': ['error'],
-    'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true, }],
+    'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true }],
     'prefer-const': ['error'],
-    'prefer-destructuring': ['error', {
-      VariableDeclarator: { array: false, object: true },
-      AssignmentExpression: { array: true, object: true }
-    }, {
-      enforceForRenamedProperties: false
-    }],
+    'prefer-destructuring': [
+      'error',
+      {
+        VariableDeclarator: { array: false, object: true },
+        AssignmentExpression: { array: true, object: true },
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
     'prefer-rest-params': ['error'],
     'prefer-spread': ['error'],
     'prefer-template': ['error'],

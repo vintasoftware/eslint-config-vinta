@@ -20,6 +20,9 @@ module.exports = {
     'plugin:prettier/recommended',
     ...rules,
   ],
+  env: {
+    node: true
+  },
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',

@@ -1,4 +1,4 @@
-const restrictedGlobals = require('confusing-browser-globals')
+const restrictedGlobals = require('confusing-browser-globals');
 
 module.exports = {
   rules: {

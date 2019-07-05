@@ -9,7 +9,7 @@ module.exports = {
   extends: ['prettier/babel'],
   plugins: ['babel'],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
   },
   rules: {
     'babel/new-cap': ['error'],
