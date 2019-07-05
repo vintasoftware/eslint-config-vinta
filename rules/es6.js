@@ -5,7 +5,6 @@ module.exports = {
     },
   },
   rules: {
-    // TODO: Validate rules
     /* Errors */
     /* Warnings */
     /* Disabled */

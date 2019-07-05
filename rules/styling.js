@@ -1,4 +1,3 @@
-
 module.exports = {
   rules: {
     // TODO: Validate rules

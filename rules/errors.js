@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: [],
   rules: {
     /* Errors */
     'for-direction': ['error'],

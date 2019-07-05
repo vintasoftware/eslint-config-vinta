@@ -1,3 +1,17 @@
+module.exports = {
+  extends: ['prettier/react'],
+  plugins: ['react', 'react-hooks'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  rules: {
+    // React Hooks
+    'react-hooks/rules-of-hooks': ['error'],
+  },
+};
+
 /*
 Controlled by Prettier:
   - react/jsx-child-element-spacing
@@ -18,17 +32,3 @@ Controlled by Prettier:
   - react/jsx-tag-spacing
   - react/jsx-wrap-multilines
 */
-
-module.exports = {
-  extends: ['prettier/react'],
-  plugins: ['react', 'react-hooks'],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  rules: {
-    // React Hooks
-    'react-hooks/rules-of-hooks': ['error'],
-  },
-};

@@ -1,19 +1,19 @@
+const restrictedGlobals = require('confusing-browser-globals')
+
 module.exports = {
   rules: {
-    // TODO: Validate rules
     /* Errors */
-    /* Warnings */
+    'no-delete-var': ['error'],
+    'no-label-var': ['error'],
+    'no-restricted-globals': ['error'].concat(restrictedGlobals),
+    'no-shadow': ['error', { hoist: 'never' }],
+    'no-shadow-restricted-names': ['error'],
+    'no-undef': ['error'],
+    'no-undef-init': ['error'],
     /* Disabled */
-    'init-declarations': [],
-    'no-delete-var': [],
-    'no-label-var': [],
-    'no-restricted-globals': [],
-    'no-shadow': [],
-    'no-shadow-restricted-names': [],
-    'no-undef': [],
-    'no-undef-init': [],
-    'no-undefined': [],
-    'no-unused-vars': [],
-    'no-use-before-define': [],
+    'init-declarations': ['off'],
+    'no-undefined': ['off'],
+    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
+    'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
   },
 };

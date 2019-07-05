@@ -8,6 +8,9 @@ Controlled by Prettier:
 module.exports = {
   extends: ['prettier/babel'],
   plugins: ['babel'],
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
   rules: {
     'babel/new-cap': ['error'],
     'babel/camelcase': ['error'],
