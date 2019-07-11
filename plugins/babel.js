@@ -10,6 +10,7 @@ module.exports = {
   plugins: ['babel'],
   parserOptions: {
     parser: 'babel-eslint',
+    ecmaVersion: 6,
   },
   rules: {
     'babel/new-cap': ['error'],

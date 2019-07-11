@@ -1,13 +1,15 @@
 module.exports = {
   extends: [
     'plugin:prettier/recommended',
-    './rules/best-practices',
-    './rules/deprecated',
-    './rules/errors',
-    './rules/es6',
-    './rules/node',
-    './rules/styling',
-    './rules/variables',
+    './.eslintrc.js',
+    './plugins/babel',
+    './plugins/import',
+    './plugins/jest',
+    './plugins/jsx-a11y',
+    './plugins/promise',
+    './plugins/react',
+    './plugins/sonar',
+    './plugins/unicorn',
   ],
   env: {
     node: true,

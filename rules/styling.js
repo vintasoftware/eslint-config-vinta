@@ -1,10 +1,9 @@
 module.exports = {
   rules: {
-    // TODO: Validate rules
     /* Errors */
     camelcase: ['error', { allow: ['^UNSAFE_'] }],
     'func-names': ['error', 'as-needed', { generators: 'as-needed' }],
-    'func-style': ['error', 'declaration', { allowArrowFunctions: true }], // VALIDATE: Enable?
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }], // TODO: Validate
     'lines-between-class-members': ['error', 'always'],
     'no-array-constructor': ['error'],
     'no-bitwise': ['error'],

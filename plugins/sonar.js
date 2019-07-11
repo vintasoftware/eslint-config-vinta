@@ -9,9 +9,9 @@ module.exports = {
     'sonarjs/no-identical-expressions': ['error'],
     'sonarjs/no-one-iteration-loop': ['error'],
     'sonarjs/no-use-of-empty-return-value': ['error'],
-    'sonarjs/max-switch-cases': ['error', 30],
+    'sonarjs/max-switch-cases': ['error', 30], // TODO: Validate
     'sonarjs/no-collapsible-if': ['error'],
-    'sonarjs/no-duplicate-string': ['error', 5],
+    'sonarjs/no-duplicate-string': ['error', 5], // TODO: Validate
     'sonarjs/no-duplicated-branches': ['error'],
     'sonarjs/no-identical-functions': ['error'],
     'sonarjs/no-inverted-boolean-check': ['error'],

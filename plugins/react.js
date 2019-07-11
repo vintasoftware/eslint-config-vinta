@@ -7,7 +7,19 @@ module.exports = {
     },
   },
   rules: {
-    // React Hooks
+    /* Errors */
+    'react/jsx-key': ['error'],
+    'react/jsx-no-comment-textnodes': ['error'],
+    'react/jsx-no-duplicate-props': ['error', { ignoreCase: false }],
+    'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
+    'react/jsx-no-undef': ['error', { allowGlobals: false }],
+    'react/jsx-uses-react': ['error'],
+    'react/jsx-uses-vars': ['error'],
+    'react/no-children-prop': ['error'],
+    'react/no-danger-with-children': ['error'],
+    /* Disabled */
+    'react/display-name': ['off'],
+    /* React Hooks */
     'react-hooks/rules-of-hooks': ['error'],
   },
 };

@@ -33,11 +33,11 @@ module.exports = {
     'jest/no-disabled-tests': ['off'],
     'jest/no-commented-out-tests': ['off'],
     'jest/no-hooks': ['off'],
-    'jest/no-large-snapshots': ['off'], // VALIDATE: Enable?
-    'jest/no-truthy-falsy': ['off'], // VALIDATE: Enable?
-    'jest/prefer-expect-assertions': ['off'], // VALIDATE: Enable?
-    'jest/require-tothrow-message': ['off'], // VALIDATE: Enable?
-    'jest/prefer-todo': ['off'], // VALIDATE: Enable?
-    'jest/prefer-called-with': ['off'], // VALIDATE: Enable?
+    'jest/no-large-snapshots': ['off'], // TODO: Validate
+    'jest/no-truthy-falsy': ['off'], // TODO: Validate
+    'jest/prefer-expect-assertions': ['off'], // TODO: Validate
+    'jest/require-tothrow-message': ['off'], // TODO: Validate
+    'jest/prefer-todo': ['off'], // TODO: Validate
+    'jest/prefer-called-with': ['off'], // TODO: Validate
   },
 };
