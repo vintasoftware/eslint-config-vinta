@@ -62,7 +62,7 @@ module.exports = {
     'react/no-unused-state': ['error'],
     'react/no-will-update-set-state': ['error'],
     'react/prefer-es6-class': ['error', 'always'],
-    'react/prefer-stateless-function': ['error', { ignorePureComponent: true }],
+    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/prop-types': ['error'],
     'react/react-in-jsx-scope': ['error'],
     'react/require-default-props': ['error', { forbidDefaultForRequired: false }],
