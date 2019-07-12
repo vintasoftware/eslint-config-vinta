@@ -58,7 +58,7 @@ module.exports = {
 
 #### Selecting Plugins
 
-If you're not using the recommended configurations (which includes all plugins configurations), you can easily select your desirable plugins:
+If you're not using the recommended configurations (which includes all plugins configurations), you can easily select your desired plugins:
 
 ```js
 module.exports = {
