@@ -1,10 +1,3 @@
-/*
-Controlled by Prettier:
-  - babel/object-curly-spacing
-  - babel/quotes
-  - babel/semi
-*/
-
 module.exports = {
   extends: ['prettier/babel'],
   plugins: ['babel'],
@@ -20,3 +13,10 @@ module.exports = {
     'babel/valid-typeof': ['error'],
   },
 };
+
+/*
+Controlled by Prettier:
+  - babel/object-curly-spacing
+  - babel/quotes
+  - babel/semi
+*/
