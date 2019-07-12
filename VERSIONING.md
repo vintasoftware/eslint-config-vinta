@@ -14,5 +14,5 @@ We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) to manag
 
 ## Patch Releases
 
-- Patch releases are published as `0.0.Z`. This number [*must be incremented if only backwards compatible bug fixes are introdced.*](https://semver.org/spec/v2.0.0.html#spec-item-6)
+- Patch releases are published as `0.0.Z`. This number [*must be incremented if only backwards compatible bug fixes are introduced.*](https://semver.org/spec/v2.0.0.html#spec-item-6)
 - This type of release is used when an existing rule configuration has changed.
