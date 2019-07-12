@@ -48,7 +48,7 @@ module.exports = {
 
 If you're already using ESLint on your project, just add `'vinta'` to the `extends` property.
 
-We also have a recommended configuration. It extends all of the plugins from the `plugins` folder and all the rules defined in the `rules` folder.
+We also have a recommended configuration. It extends all plugins from the `plugins` folder and all the rules defined in the `rules` folder.
 
 ```js
 module.exports = {
