@@ -23,11 +23,40 @@ For ESLint, your `.eslintrc` file should look (at least) like this:
 ```js
 module.exports = {
   extends: ['vinta'],
-  rules: {},
 };
 ```
 
 If you're already using ESLint on your project, just add `'vinta'` to the `extends` property.
+
+We also have a recommended configuration ready to use. It extends all of the plugins from the `plugins` folder: `babel, import, jest, jsx-a11y, promise, react, sonar, and unicorn` and uses all the rules defined in the `rules` folder.
+
+```js
+module.exports = {
+  extends: ['vinta/recommended'],
+};
+```
+
+#### Selecting Plugins
+
+If you're not using the recommended configurations (which includes all plugins configurations), you can easily select your desirable plugins:
+
+```js
+module.exports = {
+  extends: ['vinta', 'vinta/plugins/react', 'vinta/plugins/jest'],
+};
+
+/*
+Possible plugin options:
+  - vinta/plugin/babel
+  - vinta/plugin/import
+  - vinta/plugin/jest
+  - vinta/plugin/jsx-a11y
+  - vinta/plugin/promise
+  - vinta/plugin/react
+  - vinta/plugin/sonar
+  - vinta/plugin/unicorn
+*/
+```
 
 You can learn more about ESLint's shareable configs [here](http://eslint.org/docs/developer-guide/shareable-configs).
 
@@ -53,8 +82,12 @@ You can learn more about Prettier's shareable configs [here](https://github.com/
 
 ## Rules
 
+The
 
 ## Contributing
 
+See the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Versioning
+
+See the [VERSIONING.md](VERSIONING.md) file.
