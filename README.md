@@ -15,7 +15,7 @@ npm install eslint-config-vinta --save-dev
 Depending on the configurations you choose to use, you may not need to install every dependency listed here.
 
 ```bash
-npm install \
+npm install
   eslint-config-prettier@^6.0.0 \
   eslint-plugin-babel@^5.3.0 \
   eslint-plugin-import@^2.18.0 \
@@ -27,6 +27,8 @@ npm install \
   eslint-plugin-react@^7.14.2 \
   eslint-plugin-sonarjs@^0.4.0 \
   eslint-plugin-unicorn@^9.1.1 \
+  prettier@^1.18.2 \
+  eslint@^6.0.1 \
   --save-dev
 ```
 
