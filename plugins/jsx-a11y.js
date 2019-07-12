@@ -53,7 +53,7 @@ module.exports = {
       'error',
       { handlers: ['onClick', 'onMouseDown', 'onMouseUp', 'onKeyPress', 'onKeyDown', 'onKeyUp'] },
     ],
-    'no-noninteractive-element-to-interactive-role': [
+    'jsx-a11y/no-noninteractive-element-to-interactive-role': [
       'error',
       {
         ul: ['listbox', 'menu', 'menubar', 'radiogroup', 'tablist', 'tree', 'treegrid'],
