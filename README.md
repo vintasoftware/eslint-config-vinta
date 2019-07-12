@@ -68,6 +68,8 @@ module.exports = {
 };
 ```
 
+The base `vinta` configuration includes all ESLint rules and the `unicorn` and `sonarjs` plugins.
+
 Possible plugin options:
 
 - **vinta/plugin/babel** (from [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel))
@@ -87,6 +89,16 @@ For Prettier, add the following line to your `package.json` file:
 
 ```json
 "prettier": "eslint-config-vinta/prettier",
+```
+
+And be sure to have the following packages installed:
+
+```
+npm install \
+  eslint-config-prettier@^6.0.0 \
+  eslint-plugin-prettier@^3.1.0 \
+  prettier@^1.18.2 \
+  --save-dev
 ```
 
 If you already have a working configuration for your project, you can either ignore this step or extend our config in your `.prettierrc` file:
