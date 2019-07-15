@@ -49,7 +49,7 @@ module.exports = {
 
 /*
 Controlled by Prettier:
-- no-extra-parens
+  - no-extra-parens
   - no-extra-semi
   - no-unexpected-multiline
 */

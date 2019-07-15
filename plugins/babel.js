@@ -6,8 +6,15 @@ module.exports = {
     ecmaVersion: 6,
   },
   rules: {
-    'babel/new-cap': ['error'],
+    // Disabled ESLint rules that are replaced by babel's ones
+    camelcase: ['off'],
+    'new-cap': ['off'],
+    'no-invalid-this': ['off'],
+    'no-unused-expressions': ['off'],
+    'valid-typeof': ['off'],
+    /* Errors */
     'babel/camelcase': ['error'],
+    'babel/new-cap': ['error'],
     'babel/no-invalid-this': ['error'],
     'babel/no-unused-expressions': ['error'],
     'babel/valid-typeof': ['error'],

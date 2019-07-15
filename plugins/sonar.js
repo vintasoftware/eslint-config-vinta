@@ -11,7 +11,6 @@ module.exports = {
     'sonarjs/no-use-of-empty-return-value': ['error'],
     'sonarjs/max-switch-cases': ['error', 30], // TODO: Validate
     'sonarjs/no-collapsible-if': ['error'],
-    'sonarjs/no-duplicate-string': ['error', 5], // TODO: Validate
     'sonarjs/no-duplicated-branches': ['error'],
     'sonarjs/no-identical-functions': ['error'],
     'sonarjs/no-inverted-boolean-check': ['error'],
@@ -20,6 +19,8 @@ module.exports = {
     'sonarjs/no-useless-catch': ['error'],
     'sonarjs/prefer-object-literal': ['error'],
     'sonarjs/prefer-single-boolean-return': ['error'],
+    /* Warnings */
+    'sonarjs/no-duplicate-string': ['warn', 5], // TODO: Validate
     /* Disabled */
     'sonarjs/cognitive-complexity': ['off'],
     'sonarjs/prefer-immediate-return': ['off'],

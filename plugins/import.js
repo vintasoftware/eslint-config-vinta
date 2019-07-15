@@ -58,7 +58,6 @@ module.exports = {
     'import/no-named-default': ['error'],
     'import/no-self-import': ['error'],
     'import/no-unresolved': ['error', { commonjs: true }],
-    'import/no-unused-modules': ['error', { unusedExports: true, missingExports: true }],
     'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
     'import/no-webpack-loader-syntax': ['error'],
     'import/order': [
@@ -86,6 +85,7 @@ module.exports = {
     'import/no-relative-parent-imports': ['off'],
     'import/no-restricted-paths': ['off'],
     'import/no-unassigned-import': ['off'],
+    'import/no-unused-modules': ['off'],
     'import/prefer-default-export': ['off'],
     'import/unambiguous': ['off'],
   },

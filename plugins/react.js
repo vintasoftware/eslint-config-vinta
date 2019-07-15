@@ -14,7 +14,7 @@ module.exports = {
     'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
     'react/destructuring-assignment': ['error', 'always'],
     'react/forbid-foreign-prop-types': ['error'],
-    'react/jsx-boolean-value': ['error', 'always'],
+    'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
     'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-handler-names': [
