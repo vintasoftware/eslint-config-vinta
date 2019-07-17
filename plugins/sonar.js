@@ -9,7 +9,7 @@ module.exports = {
     'sonarjs/no-identical-expressions': ['error'],
     'sonarjs/no-one-iteration-loop': ['error'],
     'sonarjs/no-use-of-empty-return-value': ['error'],
-    'sonarjs/max-switch-cases': ['error', 30], // TODO: Validate
+    'sonarjs/max-switch-cases': ['error', 30],
     'sonarjs/no-collapsible-if': ['error'],
     'sonarjs/no-duplicated-branches': ['error'],
     'sonarjs/no-identical-functions': ['error'],
@@ -20,7 +20,7 @@ module.exports = {
     'sonarjs/prefer-object-literal': ['error'],
     'sonarjs/prefer-single-boolean-return': ['error'],
     /* Warnings */
-    'sonarjs/no-duplicate-string': ['warn', 5], // TODO: Validate
+    'sonarjs/no-duplicate-string': ['warn', 3],
     /* Disabled */
     'sonarjs/cognitive-complexity': ['off'],
     'sonarjs/prefer-immediate-return': ['off'],

@@ -13,7 +13,6 @@ module.exports = {
   rules: {
     /* Errors */
     'import/export': ['error'],
-    'import/exports-last': ['error'], // TODO: Validate
     'import/extensions': ['error', 'ignorePackages', { js: 'never', jsx: 'never' }],
     'import/first': ['error'],
     'import/named': ['error'],
@@ -38,7 +37,6 @@ module.exports = {
       'error',
       {
         devDependencies: [
-          // TODO: Validate
           '**/tests/**',
           '**/test/**',
           '**/specs/**',
@@ -63,7 +61,6 @@ module.exports = {
     'import/order': [
       'error',
       {
-        // TODO: Validate
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
       },
@@ -73,6 +70,7 @@ module.exports = {
     /* Disabled */
     'import/default': ['off'],
     'import/dynamic-import-chunkname': ['off'],
+    'import/exports-last': ['off'],
     'import/group-exports': ['off'],
     'import/max-dependencies': ['off'],
     'import/namespace': ['off'],

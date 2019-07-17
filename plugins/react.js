@@ -103,34 +103,26 @@ module.exports = {
         },
       },
     ],
-    'react/sort-prop-types': [
-      'error',
-      {
-        callbacksLast: true,
-        ignoreCase: false,
-        noSortAlphabetically: false,
-        requiredFirst: true,
-        sortShapeProp: true,
-      },
-    ],
     'react/state-in-constructor': ['error', 'always'],
     'react/style-prop-object': ['error'],
     'react/void-dom-elements-no-children': ['error'],
     /* React Hooks */
     'react-hooks/rules-of-hooks': ['error'],
+    /* Warnings */
+    'react/no-array-index-key': ['warn'],
     /* Disabled */
-    'react/boolean-prop-naming': ['off'], // TODO: Validate
+    'react/boolean-prop-naming': ['off'],
     'react/display-name': ['off'],
     'react/forbid-component-props': ['off'],
     'react/forbid-dom-props': ['off'],
     'react/forbid-elements': ['off'],
-    'react/forbid-prop-types': ['off'], // TODO: Validate
-    'react/no-array-index-key': ['off'], // TODO: Validate
+    'react/forbid-prop-types': ['off'],
     'react/no-did-mount-set-state': ['off'],
     'react/no-multi-comp': ['off'],
     'react/no-set-state': ['off'],
     'react/prefer-read-only-props': ['off'],
     'react/require-optimization': ['off'],
+    'react/sort-prop-types': ['off'],
     'react/static-property-placement': ['off'],
     'react/jsx-max-depth': ['off'],
     'react/jsx-no-literals': ['off'],

@@ -3,14 +3,13 @@ module.exports = {
     /* Errors */
     camelcase: ['error', { allow: ['^UNSAFE_'] }],
     'func-names': ['error', 'as-needed', { generators: 'as-needed' }],
-    'func-style': ['error', 'declaration', { allowArrowFunctions: true }], // TODO: Validate
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'lines-between-class-members': ['error', 'always'],
     'no-array-constructor': ['error'],
     'no-bitwise': ['error'],
     'no-continue': ['error'],
     'no-lonely-if': ['error'],
     'no-multi-assign': ['error'],
-    'no-nested-ternary': ['error'],
     'no-new-object': ['error'],
     'no-plusplus': ['error'],
     'no-underscore-dangle': ['error', { enforceInMethodNames: true }],
@@ -36,6 +35,7 @@ module.exports = {
     'new-cap': ['off'],
     'no-inline-comments': ['off'],
     'no-negated-condition': ['off'],
+    'no-nested-ternary': ['off'],
     'no-restricted-syntax': ['off'],
     'padding-line-between-statements': ['off'],
     'prefer-object-spread': ['off'],
