@@ -60,7 +60,7 @@ module.exports = {
 
 #### Selecting Plugins
 
-If you're not using the recommended configurations (which includes all plugins configurations), you can easily select your desired plugins:
+If you're not using the recommended configuration (which includes all plugins), you can easily select your desired plugins:
 
 ```js
 module.exports = {
@@ -68,7 +68,7 @@ module.exports = {
 };
 ```
 
-The base `vinta` configuration includes all ESLint rules and the `unicorn` and `sonarjs` plugins.
+*The base `vinta` configuration includes all ESLint rules, but no plugins.*
 
 Possible plugin options:
 

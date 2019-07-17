@@ -1,9 +1,7 @@
 
 module.exports = {
   extends: [
-    './index.js',
-    './plugins/sonar',
-    './plugins/unicorn'
+    './index.js'
   ],
   rules: {}
 };
