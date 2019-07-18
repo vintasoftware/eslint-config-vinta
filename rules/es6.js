@@ -32,12 +32,12 @@ module.exports = {
     'prefer-spread': ['error'],
     'prefer-template': ['error'],
     'require-yield': ['error'],
+    'symbol-description': ['error'],
     /* Disabled */
     'no-duplicate-imports': ['off'],
     'no-restricted-imports': ['off'],
     'prefer-numeric-literals': ['off'],
     'sort-imports': ['off'],
-    'symbol-description': ['error'],
   },
 };
 
