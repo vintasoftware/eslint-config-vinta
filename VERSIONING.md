@@ -10,7 +10,7 @@ We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) to manag
 ## Minor Releases
 
 - Minor releases are published as `0.Y.0`. This number [*must be incremented if new, backwards compatible functionality is introduced*](https://semver.org/spec/v2.0.0.html#spec-item-7).
-- This type of release is used when a new rule is added, which usually implies that a third-party plugin or ESLint itself added a new rule.
+- This type of release is used when a new rule is added, which usually implies that a third-party plugin or ESLint itself added a new rule. Or when a rule is enabled/disabled.
 
 ## Patch Releases
 
