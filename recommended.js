@@ -1,16 +1,16 @@
+const plugins = [
+  './plugins/babel',
+  './plugins/import',
+  './plugins/jest',
+  './plugins/jsx-a11y',
+  './plugins/promise',
+  './plugins/react',
+  './plugins/sonar',
+  './plugins/unicorn',
+].map(require.resolve);
+
 module.exports = {
-  extends: [
-    'plugin:prettier/recommended',
-    './.eslintrc.js',
-    './plugins/babel',
-    './plugins/import',
-    './plugins/jest',
-    './plugins/jsx-a11y',
-    './plugins/promise',
-    './plugins/react',
-    './plugins/sonar',
-    './plugins/unicorn',
-  ],
+  extends: ['plugin:prettier/recommended', './.eslintrc.js'].concat(plugins),
   env: {
     node: true,
     es6: true,
