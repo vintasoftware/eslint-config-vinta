@@ -16,19 +16,20 @@ Depending on the configurations you choose to use, you may not need to install e
 
 ```bash
 npm install \
-  eslint-config-prettier@^6.0.0 \
-  eslint-plugin-babel@^5.3.0 \
-  eslint-plugin-import@^2.18.0 \
-  eslint-plugin-jest@^22.7.2 \
-  eslint-plugin-jsx-a11y@^6.2.3 \
-  eslint-plugin-prettier@^3.1.0 \
-  eslint-plugin-promise@^4.2.1 \
-  eslint-plugin-react-hooks@^1.6.1 \
-  eslint-plugin-react@^7.14.2 \
-  eslint-plugin-sonarjs@^0.4.0 \
-  eslint-plugin-unicorn@^9.1.1 \
-  prettier@^1.18.2 \
-  eslint@^6.0.1 \
+  eslint-config-prettier@~6.0.0 \
+  eslint-plugin-babel@~5.3.0 \
+  eslint-plugin-import@~2.18.0 \
+  eslint-plugin-jest@~22.7.2 \
+  eslint-plugin-jsx-a11y@~6.2.3 \
+  eslint-plugin-prettier@~3.1.0 \
+  eslint-plugin-promise@~4.2.1 \
+  eslint-plugin-react-hooks@~1.6.1 \
+  eslint-plugin-react@~7.14.2 \
+  eslint-plugin-sonarjs@~0.4.0 \
+  eslint-plugin-unicorn@~9.1.1 \
+  prettier@~1.18.2 \
+  babel-eslint@~10.0.2 \
+  eslint@~6.0.1 \
   --save-dev
 ```
 
@@ -93,11 +94,11 @@ For Prettier, add the following line to your `package.json` file:
 
 And be sure to have the following packages installed:
 
-```
+```bash
 npm install \
-  eslint-config-prettier@^6.0.0 \
-  eslint-plugin-prettier@^3.1.0 \
-  prettier@^1.18.2 \
+  eslint-config-prettier@~6.0.0 \
+  eslint-plugin-prettier@~3.1.0 \
+  prettier@~1.18.2 \
   --save-dev
 ```
 
