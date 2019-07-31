@@ -29,7 +29,7 @@ npm install \
   eslint-plugin-unicorn@~9.1.1 \
   prettier@~1.18.2 \
   babel-eslint@~10.0.2 \
-  eslint@~6.0.1 \
+  eslint@~5.16.0 \
   --save-dev
 ```
 
