@@ -13,11 +13,12 @@ module.exports = {
     'no-unused-expressions': ['off'],
     'valid-typeof': ['off'],
     /* Errors */
-    'babel/camelcase': ['error'],
-    'babel/new-cap': ['error'],
+    'babel/camelcase': ['error', { ignoreDestructuring: true }],
+    'babel/new-cap': ['error', { capIsNew: false, newIsCap: true }],
     'babel/no-invalid-this': ['error'],
     'babel/no-unused-expressions': ['error'],
     'babel/valid-typeof': ['error'],
+    /* Disabled */
   },
 };
 
