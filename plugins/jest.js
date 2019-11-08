@@ -24,12 +24,11 @@ module.exports = {
     /* Warnings */
     'jest/prefer-called-with': ['warn'],
     'jest/prefer-spy-on': ['warn'],
-    'jest/prefer-strict-equal': ['warn'],
+    'jest/prefer-strict-equal': ['warn'], // Should be 'off' for Jest versions below 23
     'jest/prefer-to-be-null': ['warn'],
     'jest/prefer-to-be-undefined': ['warn'],
     'jest/prefer-to-contain': ['warn'],
     'jest/prefer-to-have-length': ['warn'],
-    'jest/prefer-inline-snapshots': ['warn'],
     'jest/require-tothrow-message': ['warn'],
     /* Disabled */
     'jest/no-alias-methods': ['off'],
@@ -38,6 +37,7 @@ module.exports = {
     'jest/no-hooks': ['off'],
     'jest/no-large-snapshots': ['off'],
     'jest/prefer-expect-assertions': ['off'],
+    'jest/prefer-inline-snapshots': ['off'],
     'jest/prefer-todo': ['off'],
   },
 };
