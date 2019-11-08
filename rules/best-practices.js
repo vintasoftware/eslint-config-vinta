@@ -3,7 +3,26 @@ module.exports = {
     /* Errors */
     'array-callback-return': ['error', { allowImplicit: true }],
     'block-scoped-var': ['error'],
-    'class-methods-use-this': ['error', { exceptMethods: [] }],
+    'class-methods-use-this': [
+      'error',
+      {
+        exceptMethods: [
+          'getDerivedStateFromProps',
+          'componentWillMount',
+          'UNSAFE_componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'UNSAFE_componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'UNSAFE_componentWillUpdate',
+          'getSnapshotBeforeUpdate',
+          'componentDidUpdate',
+          'componentDidCatch',
+          'componentWillUnmount',
+        ],
+      },
+    ],
     'consistent-return': ['error'],
     'default-case': ['error'],
     'dot-notation': ['error', { allowKeywords: true }],
