@@ -42,6 +42,7 @@ module.exports = {
           '**/specs/**',
           '**/spec/**',
           '**/__tests__/**',
+          '**/__stories__/**',
           '**/__mocks__/**',
           '**/webpack.*',
           '**/jest.*',
