@@ -26,7 +26,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: false }],
     'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
     'react/jsx-no-undef': ['error', { allowGlobals: false }],
-    'react/jsx-pascal-case': ['error', { allowAllCaps: false, ignore: [] }],
+    'react/jsx-pascal-case': ['error', { allowAllCaps: true, ignore: [] }],
     'react/jsx-sort-default-props': ['error', { ignoreCase: false }],
     'react/jsx-sort-props': [
       'error',
@@ -65,7 +65,6 @@ module.exports = {
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/prop-types': ['error'],
     'react/react-in-jsx-scope': ['error'],
-    'react/require-default-props': ['error', { forbidDefaultForRequired: false }],
     'react/require-render-return': ['error'],
     'react/self-closing-comp': ['error', { component: true, html: true }],
     'react/sort-comp': [
@@ -121,6 +120,7 @@ module.exports = {
     'react/no-multi-comp': ['off'],
     'react/no-set-state': ['off'],
     'react/prefer-read-only-props': ['off'],
+    'react/require-default-props': ['off'],
     'react/require-optimization': ['off'],
     'react/sort-prop-types': ['off'],
     'react/static-property-placement': ['off'],
