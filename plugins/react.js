@@ -105,8 +105,6 @@ module.exports = {
     'react/state-in-constructor': ['error', 'always'],
     'react/style-prop-object': ['error'],
     'react/void-dom-elements-no-children': ['error'],
-    /* React Hooks */
-    'react-hooks/rules-of-hooks': ['error'],
     /* Warnings */
     'react/no-array-index-key': ['warn'],
     /* Disabled */

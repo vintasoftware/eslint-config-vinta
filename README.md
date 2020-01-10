@@ -78,7 +78,8 @@ Possible plugin options:
 - **vinta/plugins/jest** (from [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest))
 - **vinta/plugins/jsx-a11y** (from [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y))
 - **vinta/plugins/promise** (from [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise))
-- **vinta/plugins/react** (from [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) and [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks))
+- **vinta/plugins/react** (from [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react))
+- **vinta/plugins/react-hooks** (from [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks))
 - **vinta/plugins/sonar** (from [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs))
 - **vinta/plugins/unicorn** (from [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn))
 

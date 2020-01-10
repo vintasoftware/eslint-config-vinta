@@ -5,6 +5,7 @@ const plugins = [
   './plugins/jsx-a11y',
   './plugins/promise',
   './plugins/react',
+  './plugins/react-hooks',
   './plugins/sonar',
   './plugins/unicorn',
 ].map(require.resolve);
