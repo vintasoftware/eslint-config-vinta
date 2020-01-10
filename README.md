@@ -23,11 +23,11 @@ npm install \
   eslint-plugin-jsx-a11y@~6.2.3 \
   eslint-plugin-prettier@~3.1.0 \
   eslint-plugin-promise@~4.2.1 \
-  eslint-plugin-react-hooks@~1.6.1 \
+  eslint-plugin-react-hooks@~2.3.0 \
   eslint-plugin-react@~7.14.2 \
   eslint-plugin-sonarjs@~0.4.0 \
   eslint-plugin-unicorn@~9.1.1 \
-  prettier@~1.18.2 \
+  prettier@~1.19.1 \
   babel-eslint@~10.0.2 \
   eslint@~5.16.0 \
   --save-dev
@@ -99,7 +99,7 @@ And be sure to have the following packages installed:
 npm install \
   eslint-config-prettier@~6.0.0 \
   eslint-plugin-prettier@~3.1.0 \
-  prettier@~1.18.2 \
+  prettier@~1.19.1 \
   --save-dev
 ```
 
