@@ -31,7 +31,7 @@ module.exports = {
       },
     ],
     'import/no-cycle': ['error'],
-    'import/no-duplicates': ['error'],
+    'import/no-duplicates': ['error', { considerQueryString: true }],
     'import/no-dynamic-require': ['error'],
     'import/no-extraneous-dependencies': [
       'error',
@@ -44,11 +44,13 @@ module.exports = {
           '**/__tests__/**',
           '**/__stories__/**',
           '**/__mocks__/**',
+          '**/__generated__/**',
           '**/webpack.*',
           '**/jest.*',
         ],
         optionalDependencies: false,
         peerDependencies: false,
+        bundledDependencies: false,
       },
     ],
     'import/no-mutable-exports': ['error'],
@@ -63,6 +65,10 @@ module.exports = {
       'error',
       {
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
         'newlines-between': 'always',
       },
     ],
