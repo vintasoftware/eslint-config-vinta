@@ -16,6 +16,7 @@ module.exports = {
     'no-unneeded-ternary': ['error', { defaultAssignment: false }],
     'one-var': ['error', 'never'],
     'operator-assignment': ['error', 'always'],
+    'prefer-exponentiation-operator': ['error'],
     /* Disabled */
     'capitalized-coments': ['off'],
     'consistent-this': ['off'],
@@ -37,6 +38,7 @@ module.exports = {
     'no-negated-condition': ['off'],
     'no-nested-ternary': ['off'],
     'no-restricted-syntax': ['off'],
+    'no-ternary': ['off'],
     'padding-line-between-statements': ['off'],
     'prefer-object-spread': ['off'],
     'sort-keys': ['off'],
@@ -72,6 +74,7 @@ Controlled by Prettier:
   - computed-property-spacing
   - eol-last
   - func-call-spacing
+  - function-call-argument-newline
   - function-paren-newline
   - implicit-arrow-linebreak
   - indent
