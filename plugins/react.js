@@ -14,18 +14,20 @@ module.exports = {
     'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
     'react/destructuring-assignment': ['error', 'always'],
     'react/forbid-foreign-prop-types': ['error'],
+    'react/jsx-no-script-url': ['error'],
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
     'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-handler-names': [
       'error',
-      { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on' },
+      { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on', checkLocalVariables: false },
     ],
     'react/jsx-key': ['error'],
     'react/jsx-no-comment-textnodes': ['error'],
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: false }],
-    'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
+    'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always', allowReferrer: false }],
     'react/jsx-no-undef': ['error', { allowGlobals: false }],
+    'react/jsx-no-useless-fragment': ['error'],
     'react/jsx-pascal-case': ['error', { allowAllCaps: true, ignore: [] }],
     'react/jsx-sort-default-props': ['error', { ignoreCase: false }],
     'react/jsx-sort-props': [
@@ -42,6 +44,7 @@ module.exports = {
     'react/jsx-uses-react': ['error'],
     'react/jsx-uses-vars': ['error'],
     'react/no-access-state-in-setstate': ['error'],
+    'react/no-adjacent-inline-elements': ['error'],
     'react/no-children-prop': ['error'],
     'react/no-danger-with-children': ['error'],
     'react/no-danger': ['error'],
@@ -70,7 +73,7 @@ module.exports = {
     'react/sort-comp': [
       'error',
       {
-        order: ['static-methods', 'lifecycle', 'everything-else', 'render'],
+        order: ['static-variables', 'static-methods', 'lifecycle', 'everything-else', 'render'],
         groups: {
           lifecycle: [
             'displayName',
@@ -109,11 +112,13 @@ module.exports = {
     'react/no-array-index-key': ['warn'],
     /* Disabled */
     'react/boolean-prop-naming': ['off'],
+
     'react/display-name': ['off'],
     'react/forbid-component-props': ['off'],
     'react/forbid-dom-props': ['off'],
     'react/forbid-elements': ['off'],
     'react/forbid-prop-types': ['off'],
+    'react/function-component-definition': ['off'], // TODO: Discuss if this rule should be used
     'react/no-did-mount-set-state': ['off'],
     'react/no-multi-comp': ['off'],
     'react/no-set-state': ['off'],
