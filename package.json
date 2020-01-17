@@ -34,7 +34,7 @@
   ],
   "prettier": "./prettier",
   "dependencies": {
-    "confusing-browser-globals": "^1.0.7"
+    "confusing-browser-globals": "^1.0.9"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
@@ -58,7 +58,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.1",
