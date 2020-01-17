@@ -51,7 +51,6 @@ module.exports = {
     /* Disabled, but should be discussed */
     'unicorn/expiring-todo-comments': ['off'],
     'unicorn/no-keyword-prefix': ['off', { checkProperties: false }],
-    'unicorn/no-nested-ternary': ['off'],
     'unicorn/prefer-dataset': ['off'],
     'unicorn/prevent-abbreviations': ['off'],
   },
@@ -59,5 +58,6 @@ module.exports = {
 
 /*
 Controlled by Prettier:
+- unicorn/no-nested-ternary
 - unicorn/number-literal-case
 */
