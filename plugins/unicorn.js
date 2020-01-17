@@ -32,6 +32,12 @@ module.exports = {
     'unicorn/prefer-type-error': ['error'],
     'unicorn/regex-shorthand': ['error'],
     'unicorn/throw-new-error': ['error'],
+    'unicorn/prefer-modern-dom-apis': ['error'],
+    'unicorn/prefer-trim-start-end': ['error'],
+    'unicorn/prefer-negative-index': ['error'],
+    'unicorn/prefer-string-slice': ['error'],
+    'unicorn/prefer-reflect-apply': ['error'],
+    'unicorn/consistent-function-scoping': ['error'],
     /* Disabled */
     'unicorn/prefer-query-selector': ['off'],
     'unicorn/catch-error-name': ['off'],
@@ -39,10 +45,14 @@ module.exports = {
     'unicorn/explicit-length-check': ['off'],
     'unicorn/filename-case': ['off'],
     'unicorn/no-fn-reference-in-iterator': ['off'],
-    'unicorn/no-keyword-prefix': ['off'],
     'unicorn/no-unsafe-regex': ['off'],
     'unicorn/no-unused-properties': ['off'],
     'unicorn/no-zero-fractions': ['off'],
+    /* Disabled, but should be discussed */
+    'unicorn/expiring-todo-comments': ['off'],
+    'unicorn/no-keyword-prefix': ['off', { checkProperties: false }],
+    'unicorn/no-nested-ternary': ['off'],
+    'unicorn/prefer-dataset': ['off'],
     'unicorn/prevent-abbreviations': ['off'],
   },
 };
