@@ -25,10 +25,6 @@ module.exports = {
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
     'react/jsx-fragments': ['error', 'syntax'],
-    'react/jsx-handler-names': [
-      'error',
-      { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on', checkLocalVariables: false },
-    ],
     'react/jsx-key': ['error'],
     'react/jsx-no-comment-textnodes': ['error'],
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: false }],
@@ -119,7 +115,6 @@ module.exports = {
     'react/no-array-index-key': ['warn'],
     /* Disabled */
     'react/boolean-prop-naming': ['off'],
-
     'react/display-name': ['off'],
     'react/forbid-component-props': ['off'],
     'react/forbid-dom-props': ['off'],
@@ -133,6 +128,7 @@ module.exports = {
     'react/require-optimization': ['off'],
     'react/sort-prop-types': ['off'],
     'react/static-property-placement': ['off'],
+    'react/jsx-handler-names': ['off'],
     'react/jsx-max-depth': ['off'],
     'react/jsx-no-literals': ['off'],
     'react/jsx-props-no-spreading': ['off'],
