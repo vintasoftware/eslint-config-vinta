@@ -13,6 +13,7 @@ module.exports = {
     'jest/no-export': ['error'],
     'jest/no-focused-tests': ['error'],
     'jest/no-identical-title': ['error'],
+    'jest/no-if': ['error'],
     'jest/no-jasmine-globals': ['error'],
     'jest/no-jest-import': ['error'],
     'jest/no-mocks-import': ['error'],
@@ -39,14 +40,12 @@ module.exports = {
     'jest/require-to-throw-message': ['warn'],
     /* Disabled */
     'jest/no-alias-methods': ['off'],
-    'jest/no-disabled-tests': ['off'],
     'jest/no-commented-out-tests': ['off'],
+    'jest/no-disabled-tests': ['off'],
     'jest/no-hooks': ['off'],
     'jest/no-large-snapshots': ['off'],
     'jest/prefer-expect-assertions': ['off'],
     'jest/prefer-inline-snapshots': ['off'],
     'jest/prefer-todo': ['off'],
-    /* Disabled, but should be discussed */
-    'jest/no-if': ['off'],
   },
 };

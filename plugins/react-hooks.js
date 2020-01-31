@@ -7,7 +7,7 @@ module.exports = {
   rules: {
     /* Errors */
     'react-hooks/rules-of-hooks': ['error'],
-    /* Warnings */
-    'react-hooks/exhaustive-deps': ['warn'],
+    /* Disabled */
+    'react-hooks/exhaustive-deps': ['off'],
   },
 };

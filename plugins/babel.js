@@ -18,7 +18,6 @@ module.exports = {
     'babel/no-invalid-this': ['error'],
     'babel/no-unused-expressions': ['error'],
     'babel/valid-typeof': ['error'],
-    /* Disabled */
   },
 };
 

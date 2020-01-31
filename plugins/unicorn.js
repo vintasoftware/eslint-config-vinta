@@ -39,19 +39,18 @@ module.exports = {
     'unicorn/regex-shorthand': ['error'],
     'unicorn/throw-new-error': ['error'],
     /* Disabled */
-    'unicorn/prefer-query-selector': ['off'],
     'unicorn/catch-error-name': ['off'],
     'unicorn/custom-error-definition': ['off'],
+    'unicorn/expiring-todo-comments': ['off'],
     'unicorn/explicit-length-check': ['off'],
     'unicorn/filename-case': ['off'],
     'unicorn/no-fn-reference-in-iterator': ['off'],
+    'unicorn/no-keyword-prefix': ['off'],
     'unicorn/no-unsafe-regex': ['off'],
     'unicorn/no-unused-properties': ['off'],
     'unicorn/no-zero-fractions': ['off'],
-    /* Disabled, but should be discussed */
-    'unicorn/expiring-todo-comments': ['off'],
-    'unicorn/no-keyword-prefix': ['off', { checkProperties: false }],
     'unicorn/prefer-dataset': ['off'],
+    'unicorn/prefer-query-selector': ['off'],
     'unicorn/prevent-abbreviations': ['off'],
   },
 };

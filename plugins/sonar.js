@@ -11,7 +11,6 @@ module.exports = {
     'sonarjs/no-extra-arguments': ['error'],
     'sonarjs/no-identical-conditions': ['error'],
     'sonarjs/no-identical-expressions': ['error'],
-    'sonarjs/no-identical-functions': ['error'],
     'sonarjs/no-inverted-boolean-check': ['error'],
     'sonarjs/no-one-iteration-loop': ['error'],
     'sonarjs/no-redundant-boolean': ['error'],
@@ -23,10 +22,10 @@ module.exports = {
     'sonarjs/no-useless-catch': ['error'],
     'sonarjs/prefer-object-literal': ['error'],
     'sonarjs/prefer-single-boolean-return': ['error'],
-    /* Warnings */
-    'sonarjs/no-duplicate-string': ['warn', 3],
     /* Disabled */
     'sonarjs/cognitive-complexity': ['off'],
+    'sonarjs/no-duplicate-string': ['off'],
+    'sonarjs/no-identical-functions': ['off'],
     'sonarjs/prefer-immediate-return': ['off'],
     'sonarjs/prefer-while': ['off'],
   },
