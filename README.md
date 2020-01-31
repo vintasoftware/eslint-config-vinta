@@ -16,14 +16,14 @@ Depending on the configurations you choose to use, you may not need to install e
 
 ```bash
 npm install \
-  babel-eslint@~10.0.2 \
+  babel-eslint@~10.0.3 \
   eslint@~6.8.0 \
-  eslint-config-prettier@~6.0.0 \
+  eslint-config-prettier@~6.10.0 \
   eslint-plugin-babel@~5.3.0 \
   eslint-plugin-import@~2.20.0 \
   eslint-plugin-jest@~23.6.0 \
   eslint-plugin-jsx-a11y@~6.2.3 \
-  eslint-plugin-prettier@~3.1.0 \
+  eslint-plugin-prettier@~3.1.2 \
   eslint-plugin-promise@~4.2.1 \
   eslint-plugin-react@~7.18.0 \
   eslint-plugin-react-hooks@~2.3.0 \
