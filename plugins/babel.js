@@ -1,9 +1,9 @@
 module.exports = {
   extends: ['prettier/babel'],
   plugins: ['babel'],
+  parser: 'babel-eslint',
   parserOptions: {
-    parser: 'babel-eslint',
-    ecmaVersion: 6,
+    ecmaVersion: 7,
   },
   rules: {
     // Disabled ESLint rules that are replaced by babel's ones

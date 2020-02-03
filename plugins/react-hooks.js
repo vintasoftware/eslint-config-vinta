@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['react-hooks'],
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 7,
     sourceType: 'module',
   },
   rules: {

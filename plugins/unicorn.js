@@ -2,7 +2,7 @@ module.exports = {
   extends: ['prettier/unicorn'],
   plugins: ['unicorn'],
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 7,
     sourceType: 'module',
   },
   rules: {
