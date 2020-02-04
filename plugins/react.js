@@ -14,13 +14,6 @@ module.exports = {
     'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
     'react/destructuring-assignment': ['error', 'always'],
     'react/forbid-foreign-prop-types': ['error'],
-    'react/function-component-definition': [
-      'error',
-      {
-        namedComponents: 'arrow-function',
-        unnamedComponents: 'arrow-function',
-      },
-    ],
     'react/jsx-no-script-url': ['error'],
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
@@ -120,6 +113,14 @@ module.exports = {
     'react/forbid-dom-props': ['off'],
     'react/forbid-elements': ['off'],
     'react/forbid-prop-types': ['off'],
+    'react/function-component-definition': [
+      // Disabled temporarily (see 1.4.2 changelog for details)
+      'off',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     'react/no-did-mount-set-state': ['off'],
     'react/no-multi-comp': ['off'],
     'react/no-set-state': ['off'],
