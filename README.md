@@ -21,7 +21,7 @@ npm install \
   eslint-config-prettier@~6.10.0 \
   eslint-plugin-babel@~5.3.0 \
   eslint-plugin-import@~2.20.0 \
-  eslint-plugin-jest@~23.6.0 \
+  eslint-plugin-jest@~22.21.0 \
   eslint-plugin-jsx-a11y@~6.2.3 \
   eslint-plugin-prettier@~3.1.2 \
   eslint-plugin-promise@~4.2.1 \
