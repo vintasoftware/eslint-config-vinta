@@ -8,8 +8,8 @@ module.exports = {
     'jest/consistent-test-it': ['error', { fn: 'test', withinDescribe: 'test' }],
     'jest/expect-expect': ['error'],
     'jest/lowercase-name': ['error', { ignore: ['describe'] }],
-    'jest/no-duplicate-hooks': ['error'],
     'jest/no-expect-resolves': ['error'],
+    'jest/no-empty-title': ['error'], // Deprecated after version 23
     'jest/no-export': ['error'],
     'jest/no-focused-tests': ['error'],
     'jest/no-identical-title': ['error'],
@@ -32,12 +32,12 @@ module.exports = {
     'jest/prefer-called-with': ['warn'],
     'jest/prefer-hooks-on-top': ['warn'],
     'jest/prefer-spy-on': ['warn'],
-    'jest/prefer-strict-equal': ['warn'], // Should be 'off' for Jest versions below 23
+    'jest/prefer-strict-equal': ['warn'],
     'jest/prefer-to-be-null': ['warn'],
     'jest/prefer-to-be-undefined': ['warn'],
     'jest/prefer-to-contain': ['warn'],
     'jest/prefer-to-have-length': ['warn'],
-    'jest/require-to-throw-message': ['warn'],
+    'jest/require-tothrow-message': ['warn'], // Deprecated after version 23
     /* Disabled */
     'jest/no-alias-methods': ['off'],
     'jest/no-commented-out-tests': ['off'],
@@ -47,5 +47,8 @@ module.exports = {
     'jest/prefer-expect-assertions': ['off'],
     'jest/prefer-inline-snapshots': ['off'],
     'jest/prefer-todo': ['off'],
+    /* Removed - will enable after v23+ is installed */
+    // 'jest/no-duplicate-hooks': ['error'],
+    // 'jest/require-to-throw-message': ['warn'],
   },
 };

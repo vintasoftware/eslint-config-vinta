@@ -4,8 +4,8 @@
   "description": "Vinta's ESLint and Prettier Shareable Configs",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext js,jsx",
-    "lint:fix": "eslint --fix --ext js,jsx",
+    "lint": "eslint --ext js,jsx -c recommended.js",
+    "lint:fix": "eslint --fix --ext js,jsx -c recommended.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vinta Software",
@@ -42,7 +42,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jest": "^22.21.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
@@ -58,7 +58,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jest": "^22.21.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.1",
