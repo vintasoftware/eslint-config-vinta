@@ -7,7 +7,6 @@ module.exports = {
   },
   rules: {
     /* Errors */
-    'unicorn/consistent-function-scoping': ['error'],
     'unicorn/error-message': ['error'],
     'unicorn/escape-case': ['error'],
     'unicorn/import-index': ['error'],
@@ -40,6 +39,7 @@ module.exports = {
     'unicorn/throw-new-error': ['error'],
     /* Disabled */
     'unicorn/catch-error-name': ['off'],
+    'unicorn/consistent-function-scoping': ['off'],
     'unicorn/custom-error-definition': ['off'],
     'unicorn/expiring-todo-comments': ['off'],
     'unicorn/explicit-length-check': ['off'],
