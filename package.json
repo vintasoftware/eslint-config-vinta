@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vinta",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Vinta's ESLint and Prettier Shareable Configs",
   "main": "index.js",
   "scripts": {
