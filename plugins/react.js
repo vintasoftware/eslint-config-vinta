@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier/react'],
+  extends: ['prettier'],
   plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaVersion: 7,

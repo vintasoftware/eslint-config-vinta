@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier/unicorn'],
+  extends: ['prettier'],
   plugins: ['unicorn'],
   parserOptions: {
     ecmaVersion: 7,

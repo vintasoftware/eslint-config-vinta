@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier/babel'],
+  extends: ['prettier'],
   plugins: ['babel'],
   parser: 'babel-eslint',
   parserOptions: {
