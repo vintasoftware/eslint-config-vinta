@@ -17,7 +17,6 @@ module.exports = {
     '@babel/new-cap': ['error', { capIsNew: false, newIsCap: true }],
     '@babel/no-invalid-this': ['error'],
     '@babel/no-unused-expressions': ['error'],
-    '@babel/valid-typeof': ['error'],
   },
 };
 
