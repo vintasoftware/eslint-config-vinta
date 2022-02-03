@@ -16,20 +16,20 @@ Depending on the configurations you choose to use, you may not need to install e
 
 ```bash
 npm install \
-  babel-eslint@~10.1.0 \
-  eslint@~6.8.0 \
-  eslint-config-prettier@~6.10.1 \
-  eslint-plugin-babel@~5.3.0 \
+  @babel/eslint-parser@~7.16.5 \
+  @babel/eslint-plugin@~7.16.5 \
+  eslint@~8.8.0 \
+  eslint-config-prettier@~8.3.0 \
   eslint-plugin-import@~2.20.1 \
-  eslint-plugin-jest@~22.21.0 \
-  eslint-plugin-jsx-a11y@~6.2.3 \
-  eslint-plugin-prettier@~3.1.2 \
-  eslint-plugin-promise@~4.2.1 \
-  eslint-plugin-react@~7.19.0 \
-  eslint-plugin-react-hooks@~2.5.1 \
-  eslint-plugin-sonarjs@~0.5.0 \
-  eslint-plugin-unicorn@~15.0.1 \
-  prettier@~1.19.1 \
+  eslint-plugin-jest@~26.0.0 \
+  eslint-plugin-jsx-a11y@~6.5.1 \
+  eslint-plugin-prettier@~4.0.0 \
+  eslint-plugin-promise@~6.0.0 \
+  eslint-plugin-react@~7.28.0 \
+  eslint-plugin-react-hooks@~4.3.0 \
+  eslint-plugin-sonarjs@~0.11.0 \
+  eslint-plugin-unicorn@~40.1.0 \
+  prettier@~2.5.1 \
   --save-dev
 ```
 
@@ -73,7 +73,7 @@ module.exports = {
 
 Possible plugin options:
 
-- **vinta/plugins/babel** (from [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel))
+- **vinta/plugins/babel** (from [@babel/eslint-plugin](https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin))
 - **vinta/plugins/import** (from [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import))
 - **vinta/plugins/jest** (from [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest))
 - **vinta/plugins/jsx-a11y** (from [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y))
@@ -97,9 +97,9 @@ And be sure to have the following packages installed:
 
 ```bash
 npm install \
-  eslint-config-prettier@~6.0.0 \
-  eslint-plugin-prettier@~3.1.0 \
-  prettier@~1.19.1 \
+  eslint-config-prettier@~8.3.0 \
+  eslint-plugin-prettier@~4.0.0 \
+  prettier@~2.5.1 \
   --save-dev
 ```
 
