@@ -9,7 +9,7 @@ const rules = [
 ].map(require.resolve);
 
 module.exports = {
-  extends: ['plugin:prettier/recommended'].concat(rules),
+  extends: rules,
   env: {
     node: true,
     es6: true,

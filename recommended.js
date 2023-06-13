@@ -11,7 +11,7 @@ const plugins = [
 ].map(require.resolve);
 
 module.exports = {
-  extends: ['plugin:prettier/recommended', './.eslintrc.js'].concat(plugins),
+  extends: ['./.eslintrc.js', ...plugins, 'plugin:prettier/recommended'],
   env: {
     node: true,
     es6: true,
