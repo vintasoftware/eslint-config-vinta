@@ -6,30 +6,69 @@ Vinta's [ESLint](http://eslint.org) and [Prettier](https://prettier.io/) shareab
 
 ## Install
 
-```bash
-npm install eslint-config-vinta --save-dev
-```
-
-### Peer dependencies
-
-Depending on the configurations you choose to use, you may not need to install every dependency listed here.
+For the basic rules (Use with `extends: ['vinta']`)
 
 ```bash
 npm install \
-  @babel/eslint-parser@~7.16.5 \
-  @babel/eslint-plugin@~7.16.5 \
-  eslint@~8.8.0 \
-  eslint-config-prettier@~8.3.0 \
-  eslint-plugin-import@~2.20.1 \
-  eslint-plugin-jest@~26.0.0 \
-  eslint-plugin-jsx-a11y@~6.5.1 \
-  eslint-plugin-prettier@~4.0.0 \
-  eslint-plugin-promise@~6.0.0 \
-  eslint-plugin-react@~7.28.0 \
-  eslint-plugin-react-hooks@~4.3.0 \
-  eslint-plugin-sonarjs@~0.11.0 \
-  eslint-plugin-unicorn@~40.1.0 \
-  prettier@~2.5.1 \
+  eslint-config-vinta \
+  eslint@^8.42.0 \
+  --save-dev
+```
+
+For recommended rules (Use with `extends: ['vinta/recommended']`)
+
+```bash
+npm install \
+  eslint-config-vinta \
+  eslint@^8.42.0 \
+  @babel/eslint-parser@^7.22.5 \
+  @babel/eslint-plugin@^7.22.5 \
+  eslint-config-prettier@^8.8.0 \
+  eslint-plugin-import@^2.27.5 \
+  eslint-plugin-jest@^27.2.1 \
+  eslint-plugin-jsx-a1@ "^6.7.1 \
+  eslint-plugin-prettier@^4.2.1 \
+  eslint-plugin-promise@^6.1.1 \
+  eslint-plugin-react@^7.32.2 \
+  eslint-plugin-react-hoo@ "^4.6.0 \
+  eslint-plugin-sonarjs@^0.19.0 \
+  eslint-plugin-unicorn@^47.0.0 \
+  prettier@^2.8.8 \
+  --save-dev
+```
+
+For typescript rules (Use with `extends: ['vinta/typescript']`)
+
+```bash
+npm install \
+  eslint-config-vinta \
+  eslint@^8.42.0 \
+  @typescript-eslint/parser@^5.59.11 \
+  @typescript-eslint/eslint-plugin@^5.59.11 \
+  typescript@^5.1.3 \
+  --save-dev
+```
+
+For recommended typescript rules (Use with `extends: ['vinta/recommended-typescript']`)
+
+```bash
+npm install \
+  eslint-config-vinta \
+  eslint@^8.42.0 \
+  eslint-config-prettier@^8.8.0 \
+  eslint-plugin-import@^2.27.5 \
+  eslint-plugin-jest@^27.2.1 \
+  eslint-plugin-jsx-a1@ "^6.7.1 \
+  eslint-plugin-prettier@^4.2.1 \
+  eslint-plugin-promise@^6.1.1 \
+  eslint-plugin-react@^7.32.2 \
+  eslint-plugin-react-hoo@ "^4.6.0 \
+  eslint-plugin-sonarjs@^0.19.0 \
+  eslint-plugin-unicorn@^47.0.0 \
+  prettier@^2.8.8 \
+  @typescript-eslint/parser@^5.59.11 \
+  @typescript-eslint/eslint-plugin@^5.59.11 \
+  typescript@^5.1.3 \
   --save-dev
 ```
 
@@ -51,7 +90,9 @@ module.exports = {
 
 If you're already using ESLint on your project, just add `'vinta'` to the `extends` property.
 
-We also have a recommended configuration. It extends all plugins from the `plugins` folder and all the rules defined in the `rules` folder.
+#### Recommended
+
+We also have a recommended configuration. It extends all plugins from the `plugins` folder and all the rules defined in the `rules` folder. It also includes [prettier](#prettier) for formatting.
 
 ```js
 module.exports = {
@@ -85,21 +126,41 @@ Possible plugin options:
 
 You can learn more about ESLint's shareable configs [here](http://eslint.org/docs/developer-guide/shareable-configs).
 
+### Typescript
+
+For usage with Typescript, [install the appropriate dependencies](#install) and the following to your `.eslintrc`:
+
+```js
+module.exports = {
+  extends: ['vinta/typescript'],
+};
+```
+
+#### Recommended
+
+We also have a recommended configuration. It extends all plugins from the `plugins` folder and all the rules defined in the `rules` folder. It also includes [prettier](#prettier) for formatting.
+
+```js
+module.exports = {
+  extends: ['vinta/typescript-recommended'],
+};
+```
+
 ### Prettier
 
 For Prettier, add the following line to your `package.json` file:
 
 ```json
-"prettier": "eslint-config-vinta/prettier",
+"prettier": "eslint-config-vinta/.prettierrc",
 ```
 
 And be sure to have the following packages installed:
 
 ```bash
 npm install \
-  eslint-config-prettier@~8.3.0 \
-  eslint-plugin-prettier@~4.0.0 \
-  prettier@~2.5.1 \
+  prettier@^2.8.8 \
+  eslint-config-prettier@^8.8.0 \
+  eslint-plugin-prettier@^4.2.1 \
   --save-dev
 ```
 
