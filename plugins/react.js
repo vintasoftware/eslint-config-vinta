@@ -30,7 +30,7 @@ module.exports = {
     'react/jsx-no-undef': ['error', { allowGlobals: false }],
     'react/jsx-no-useless-fragment': ['error'],
     'react/jsx-pascal-case': ['error', { allowAllCaps: true, ignore: [] }],
-    'react/jsx-sort-default-props': ['error', { ignoreCase: false }],
+    'react/sort-default-props': ['error', { ignoreCase: false }],
     'react/jsx-sort-props': [
       'error',
       {
