@@ -14,9 +14,6 @@ module.exports = {
     node: true,
     es6: true,
   },
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    parser: '@babel/eslint-parser',
-  },
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
 };

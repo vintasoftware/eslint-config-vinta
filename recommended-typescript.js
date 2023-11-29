@@ -1,5 +1,4 @@
 const plugins = [
-  './plugins/babel',
   './plugins/import',
   './plugins/jest',
   './plugins/jsx-a11y',
@@ -11,14 +10,16 @@ const plugins = [
 ].map(require.resolve);
 
 module.exports = {
-  extends: ['./.eslintrc.js', ...plugins, 'plugin:prettier/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    './.eslintrc.js',
+    ...plugins,
+    'plugin:prettier/recommended',
+  ],
   env: {
     node: true,
     es6: true,
   },
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    parser: '@babel/eslint-parser',
-  },
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
 };
