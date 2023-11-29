@@ -13,7 +13,6 @@ module.exports = {
     'jest/no-identical-title': ['error'],
     'jest/no-if': ['error'],
     'jest/no-jasmine-globals': ['error'],
-    'jest/no-jest-import': ['error'],
     'jest/no-mocks-import': ['error'],
     'jest/no-standalone-expect': ['error'],
     'jest/no-done-callback': ['error'],
