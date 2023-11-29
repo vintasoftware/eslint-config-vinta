@@ -68,7 +68,7 @@ module.exports = {
     'react/prefer-es6-class': ['error', 'always'],
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/prop-types': ['error'],
-    'react/react-in-jsx-scope': ['error'],
+    'react/react-in-jsx-scope': ['off'],
     'react/require-render-return': ['error'],
     'react/self-closing-comp': ['error', { component: true, html: true }],
     'react/sort-comp': [
